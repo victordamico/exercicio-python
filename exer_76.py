@@ -10,3 +10,5 @@ for i in range(0,len(listagem)+1):
         print(f'{listagem[i]:.<30}', end='') #< alinhado a esquerda
     else:
         print(f'R${listagem[i]:.>1}')# > alinha para direita
+        
+print('novo teste')
