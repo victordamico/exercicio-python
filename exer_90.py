@@ -15,5 +15,5 @@ else:
 for c,v in aluno.items():
     print(f'- {c} é igual a {v}')
 
-
+print('teste')
     
