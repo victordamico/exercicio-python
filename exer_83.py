@@ -1,7 +1,7 @@
 #84) Faça um programa que leia nome e peso de varias pessoa, guardando tudo em uma lista. No final,Mostre:
 #A) Quantas pessoas foram cadastradas
 #B)Uma listagem com as pessoas mais pesadas
-#C) Uma lista com as pessoas mais leves
+#C) Uma lista com as pessoas mais leve
 
 lista0 = []
 lista1 = []
