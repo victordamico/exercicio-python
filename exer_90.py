@@ -1,5 +1,5 @@
-''' façã um programa que leia nome e media de um aluno, guardando também a situaçãoem um dicionario. No final, mostre o conteúdo da estrutura na tela
-'''
+# façã um programa que leia nome e media de um aluno, guardando também a situaçãoem um dicionario. No final, mostre o conteúdo da estrutura na tela
+
 
 aluno = {}
 aluno['nome'] = input('digite seu nome:')
