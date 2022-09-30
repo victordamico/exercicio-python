@@ -12,3 +12,4 @@ print(f'O menor valor que você digitou foi {min}')
 
 
 
+s
