@@ -1,13 +1,14 @@
-lista = [23,45,68,21,45,323,67,67,78]
-print(f'Lista: {lista} ela tem {len(lista)} elementos')
+lista = []
+lista.append(int(input('Digite um valor Posição:')))
+lista.append(int(input('Digite um valor Posição:')))
+lista.append(int(input('Digite um valor Posição:')))
+lista.append(int(input('Digite um valor Posição:')))
 
-tupla = 23,45,68,21,45,323,67,67,78
-print(f'Tupla: {lista} ela tem {len(tupla)} elementos')
+print(f'Você digitou os valores: {lista}')
+max = max(lista)
+min = min(lista)
+print(f'O maior valor que você digitou foi {max}')
+print(f'O menor valor que você digitou foi {min}')
 
-dicionario = {}.fromkeys([23,45,68,21,45,323,67,67,78], 'discionario')
-print(f'Tupla: {dicionario} ela tem {len(dicionario)} elementos')
-
-conjunto = {23,45,68,21,45,323,67,67,78}
-print(f'Lista: {conjunto} ela tem {len(conjunto)} elementos')
 
 
