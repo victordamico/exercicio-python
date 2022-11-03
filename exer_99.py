@@ -2,10 +2,11 @@
 
 competidores =[
     {"competidor": "Calor", "voltas": 4},
-    {"competidor": "Calor", "voltas": 5},
-    {"competidor": "Calor", "voltas": 1},
-    {"competidor": "Calor", "voltas": 2},
-    {"competidor": "Calor", "voltas": 9},
+    {"competidor": "Victor", "voltas": 5},
+    {"competidor": "Henrique", "voltas": 1},
+    {"competidor": "Rebeca", "voltas": 2},
+    {"competidor": "Celio", "voltas": 9},
 ]
 
-print(sorted(competidores, key= lambda competidor: competidor["voltas"] ))
+print(max(competidores, key= lambda competidor: competidor["competidor"] ))
+print(min(competidores, key= lambda competidor: competidor["competidor"] ))
