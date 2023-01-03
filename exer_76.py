@@ -11,3 +11,4 @@ for i in range(0,len(listagem)+1):
         print(f'R${listagem[i]:.>1}')# > alinha para direita
         
 print('novo teste')
+#
