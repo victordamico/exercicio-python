@@ -1,3 +1,5 @@
+#Função para medir a area do terreno 
+
 def area():
     print("  Controle de Terreno  ")
     print("-" * 20)
@@ -7,3 +9,4 @@ def area():
     print(f'A Area do Terreno é de {a}')
 
 area()
+
