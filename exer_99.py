@@ -8,7 +8,6 @@ competidores =[
     {"competidor": "Celio", "voltas": 9},
 ]
 
-
 print(max(competidores, key= lambda competidor: competidor["competidor"] ))
 print(min(competidores, key= lambda competidor: competidor["competidor"] ))
 
