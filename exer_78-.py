@@ -10,6 +10,3 @@ min = min(lista)
 print(f'O maior valor que você digitou foi {max}')
 print(f'O menor valor que você digitou foi {min}')
 
-
-
-
